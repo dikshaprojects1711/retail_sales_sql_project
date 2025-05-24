@@ -96,7 +96,7 @@ where
    select avg(age) 
    from retail_sales
    where  category='Beauty' ;
-  
+  ``
  5. **Write a SQL query to find all transactions where the total_sale is greater than 1000.**:
     ```sql
     select * from retail_sales
