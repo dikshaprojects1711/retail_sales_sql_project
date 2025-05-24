@@ -149,7 +149,7 @@ SELECT
 FROM hourly_sale
 GROUP BY shift;
 ```
-
+### Findings 
 
 
 
