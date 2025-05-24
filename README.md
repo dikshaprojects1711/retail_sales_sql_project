@@ -93,9 +93,9 @@ where
    ```
  4. **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**:
     ```sql
-  select  round(avg(age),2) 
-  from retail_sales
-  where  category='Beauty';
+   select avg(age) 
+   from retail_sales
+   where  category='Beauty' ;
   
  5. **Write a SQL query to find all transactions where the total_sale is greater than 1000.**:
     ```sql
