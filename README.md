@@ -21,17 +21,7 @@ This project aims to showcase fundamental SQL techniques commonly employed by da
 **1. Database Setup** 
 -  **Database Creation:** The project starts by creating a database named retail_sales.
 -  **Table Creation:**  A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
-  ```sql
--- How many sales we have ?
-  select count(*) as total_sale from retail_sales
-
--- How many unique customers we have? 
-   select count(distinct customer_id) as total_sale from retail_sales
--- how many unique category we have?
-  select distinct category from retail_sales
-
-```
-
+ 
 ```sql
 --create database
 create database retail_sales
@@ -60,5 +50,25 @@ total_sale FLOAT
 - **Category Count**: Lists all unique product categories and counts them.
 - **Null Value Check & Cleaning**: Checks for missing data and removes any rows with null values to ensure data quality..
 
+```sql
+-- how many sales we have 
+  select count(*) as total_sale from retail_sales
+-- How many unique customers we have ?
+  select count(distinct customer_id) as total_sale from retail_sales
+-- how many distinct category we have ?
+  select distinct category from retail_sales
+
+select * from retail_sales
+where
+      transactions_id is null or sale_date is null or sale_time is null or customer_id is null or 
+      gender is null or age is null or  category is null or quantiy is null or price_per_unit is null
+      or cogs is null or total_sale is null;
+
+delete from retail_sales 
+where
+    transactions_id is null or sale_date is null or sale_time is null or customer_id is null or
+   gender is null or age is null or category is null or quantiy is null or price_per_unit is null or
+   cogs is null or total_sale is null;
+```
 
 
