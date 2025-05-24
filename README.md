@@ -71,4 +71,7 @@ where
    cogs is null or total_sale is null;
 ```
 
+ ### 3. Data Analysis & Findings
+ The following SQL queries were developed to answer specific business questions:
+
 
