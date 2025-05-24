@@ -149,7 +149,18 @@ SELECT
 FROM hourly_sale
 GROUP BY shift;
 ```
-### Findings 
+## Findings 
+   - **Customer Demographics** : The dataset comprises customers from a range of age groups, with sales distributed across diverse categories such as Clothing and Beauty.
+   - **High-Value Transactions**: Numerous transactions exceed a total sale amount of ₹1000, indicating instances of premium purchases.
+   - **Sales Trends**: Monthly sales analysis reveals fluctuations, helping to pinpoint peak and off-peak sales periods.
+   - **Customer Insights**: The data highlights top-spending customers and identifies the most popular product categories, providing valuable insights into customer preferences.
+
+## Reports
+   - **Sales Summary**: Overview of total sales, customer demographics, and category-wise performance.
+   - **Trend Analysis**: Monthly sales trends highlight seasonal shifts and peak periods.
+   - **Customer Insights**: Identifies top customers and unique customer counts per category.
+
+
 
 
 
