@@ -1,1 +1,4 @@
-# retail_sales_sql_project
+# Project Overview 
+# Project Title:  
+Retail Sales Analysis
+# Database : retail_sales
