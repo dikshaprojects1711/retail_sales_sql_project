@@ -149,6 +149,10 @@ SELECT
 FROM hourly_sale
 GROUP BY shift;
 ```
+
+## Technologies Used:
+     - Postgre SQL
+     - SQL Server
 ## Findings 
    - **Customer Demographics** : The dataset comprises customers from a range of age groups, with sales distributed across diverse categories such as Clothing and Beauty.
    - **High-Value Transactions**: Numerous transactions exceed a total sale amount of ₹1000, indicating instances of premium purchases.
@@ -159,6 +163,10 @@ GROUP BY shift;
    - **Sales Summary**: Overview of total sales, customer demographics, and category-wise performance.
    - **Trend Analysis**: Monthly sales trends highlight seasonal shifts and peak periods.
    - **Customer Insights**: Identifies top customers and unique customer counts per category.
+
+## Conclusion
+  This project offers a comprehensive introduction to SQL for data analysts, encompassing database setup, data cleaning, exploratory data analysis, and business-focused SQL queries. The 
+   insights gained help inform business decisions by analyzing sales patterns, customer behavior, and product performance.
 
 
 
