@@ -8,7 +8,7 @@
 
 This project aims to showcase fundamental SQL techniques commonly employed by data analysts to explore, clean, and analyze retail sales data. It involves designing and populating a relational database, conducting exploratory data analysis (EDA) to uncover trends and patterns, and leveraging SQL queries to address specific business questions and generate actionable insights.
 
-**Objectives:**
+# Objectives:
 
 **1. Database Setup:** Design and initialize a retail sales database by importing and structuring the provided dataset to enable efficient querying and analysis.
 
