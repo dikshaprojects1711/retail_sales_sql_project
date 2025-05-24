@@ -110,19 +110,20 @@ where
     group by gender, category;
     ```
  7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**:
-    ```sql
-    select extract(year from sale_date) as year,
-        extract (month from sale_date) as month,
-		      avg(total_sale) as avg_sale
-    from retail_sales 
-    group by month , year
-    order by avg_sale desc;
-    ```
+      ```sql
+        select extract(year from sale_date) as year,
+               extract (month from sale_date) as month,
+		avg(total_sale) as avg_sale
+        from retail_sales 
+        group by month , year
+      order by avg_sale desc;
+      ```
  8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
     ```sql
-    select sum(total_sale) as total_Sales , customer_id from retail_sales
+    select sum(total_sale) as total_Sales , customer_id
+    from retail_sales
     group by customer_id 
-   order by  total_sales desc
+    order by  total_sales desc
     limit 5;
     ```
  9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
