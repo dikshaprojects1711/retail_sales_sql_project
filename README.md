@@ -16,3 +16,4 @@ This project aims to showcase fundamental SQL techniques commonly employed by da
 **3. Exploratory Data Analysis (EDA):** Conduct preliminary analysis using SQL to explore data distributions, uncover trends, and gain a foundational understanding of the dataset.
 
 **4.Business Analysis:** Formulate and execute SQL queries to answer key business questions, enabling data-driven decision-making and extracting actionable insights.
+# Project Structure:
