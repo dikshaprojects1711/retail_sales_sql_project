@@ -123,8 +123,8 @@ where
     select sum(total_sale) as total_Sales , customer_id from retail_sales
     group by customer_id 
    order by  total_sales desc
-   limit 5;
-   ```
+    limit 5;
+    ```
  9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
    ```sql
    select category ,  count( distinct customer_id)
